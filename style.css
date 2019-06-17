@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+main {
+  background-color: #34495e;
+  min-height: 100vh;
+  color: #ecf0f1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.searchRow {
+  padding-top: 80px;
+  width: 100%;
+}
+
+.gifSearch {
+  margin-left: 50%;
+  transform: translate(-50%);
+  display: grid;
+  grid-template-columns: 80% 1fr;
+}
+
+.gifSearchInput {
+  height: 40px;
+  font-size: 1.25rem;
+  padding-left: 15px;
+  background-color: black;
+  color: #ecf0f1;
+  border: solid 2px #2ecc71;
+}
+
+.searchSubmitBtn {
+  border: solid 2px coral;
+  background-color: black;
+  color: #ecf0f1;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
